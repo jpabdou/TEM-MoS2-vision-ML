@@ -1,4 +1,7 @@
-This was a side project I started in 2021 in which I used molybdenum disulfide (MoS2) transmission electron microscopy data at two magnification levels (500,000x and 200,000x) from my work to identify the nanostructure of MoS2 using the FastAI dataloader and unet_learner classes.
+This was a side project I started in 2021 in which I used molybdenum disulfide (MoS2) transmission electron microscopy data at two magnification levels (500,000x and 200,000x) from my work to identify the nanostructure of MoS2 using the FastAI dataloader and unet_learner classes. MoS2 under certain reaction conditions forms aligned vertical nanosturcturs as shown in the image below with one example of such nanostructure marked in red.
+<br></br>
+<img src="/TEM_test_images/MoS2 example.png" alt="tem example of molybdenum disulfide/MoS2 marked in red"/>
+
 
 I created segmentation mask images manually using VGG Image Annotator (VIA V2; https://www.robots.ox.ac.uk/~vgg/software/via/) and generated images based on the masking based on the tutorial here: https://towardsdatascience.com/generating-image-segmentation-masks-the-easy-way-dd4d3656dbd1
 
