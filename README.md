@@ -1,4 +1,4 @@
-This was a side project I started in 2021 in which I used molybdenum disulfide (MoS2) transmission electron microscopy (TEM) data at two magnification levels (500,000x and 200,000x) from my work to train a vision deep learning model. The goal was to identify the nanostructure of MoS2 using the FastAI dataloader and unet_learner functions. MoS2 under certain reaction conditions forms aligned vertical nanostructures as shown in the image below with an example marked in red.
+This was a side project I started in 2021 in which I used molybdenum disulfide (MoS2) transmission electron microscopy (TEM) data at two magnification levels (500,000x and 200,000x) from my work to train a vision deep learning model. The goal was to identify the nanostructure of MoS2 using the FastAI dataloader and unet_learner functions. MoS2 under certain reaction conditions forms aligned vertical nanostructures with alternating black-and-white patterns observed under TEM as shown in the image below with an example marked in red.
 <br></br>
 <img src="/TEM_test_images/MoS2 example.png" alt="tem example of molybdenum disulfide/MoS2 marked in red"/>
 
