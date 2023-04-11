@@ -11,7 +11,7 @@ After creating the image masks, I trained ResNet-34 model on 15 cycles with foll
 
 As shown, the training and validation loss drops to <40% with no further changes in results.
 
-After training, I have 3 test images shown below: 1) a TEM of MoS2 image that wasn't used in training or validation sets for the model at 50000X magnification and 2)  a TEM of MoS2 image that wasn't used in training or validation sets for the model at 20000X magnification.
+After training, I have 3 test images shown below: 1) a TEM of MoS2 image that wasn't used in training or validation sets for the model at 50000X magnification, 2)  a TEM of MoS2 image that wasn't used in training or validation sets for the model at 20000X magnification, and 3) a TEM image of tungsten disulfide (WS2), a similar nanostructure, taken from literature (Jung, Yeonwoong, et al. Nano letters 14.12 (2014)) at around 50000X magnification.
 
 For the first image, I have good matching with very little of the MoS2 nanostructure missed as the image is at a similar magnification to the training and validation data.
 <br></br>
