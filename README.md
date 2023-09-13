@@ -9,7 +9,7 @@ After creating the image masks, I trained ResNet-34 model on 15 cycles with foll
 <br></br>
 <img src="/Screenshot 2023-04-10 at 16-44-08 Fastai_Vision_MoS2_Prediction - Jupyter Notebook.jpg" alt="fastai training and validation losses for 15 cycles"/>
 
-As shown, the training and validation loss drops to <40% with no further changes in results.
+As shown, the training and validation loss drops to <40% with no further changes in results. Unusually, the validation loss is lower than the training loss, indicating that the validation set might be easier to identify than the training set.
 
 After training, I have 3 test images shown below: 1) a TEM of MoS2 image that wasn't used in training or validation sets for the model at 50000X magnification, 2)  a TEM of MoS2 image that wasn't used in training or validation sets for the model at 20000X magnification, and 3) a TEM image of tungsten disulfide (WS2), a similar nanostructure, taken from literature (Jung, Yeonwoong, et al. Nano letters 14.12 (2014)) at around 50000X magnification.
 
